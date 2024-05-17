@@ -1,25 +1,33 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
+    font-family: sans-serif;
+    text-align: center;
 }
 
-h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
+.container {
+    margin: 20px auto;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
+input[type="button"],
+#btnCopy {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-#code-display {
-  font-size: 20px;
-  margin-top: 20px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+#generatedCode {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#btnCopy {
+    background-color: #007bff;
+    color: white;
 }

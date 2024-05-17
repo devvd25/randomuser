@@ -8,8 +8,11 @@
 </head>
 <body>
     <h1>Tạo mã 15 ký tự ngẫu nhiên</h1>
-    <button onclick="generateCode()">Tạo mã</button>
-    <div id="code-display"></div>
+    <div class="container">
+        <input type="button" id="btnGenerate" value="Tạo mã">
+        <input type="text" id="generatedCode" readonly>
+        <button id="btnCopy">Sao chép</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
